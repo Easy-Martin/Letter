@@ -3,10 +3,11 @@
 
 ### 示例
 引入 firstAlphabet.js
+```
+var a = firstAlphabet('黄') 
+console.log(a) //H
 
-`var a = firstAlphabet('黄') `
-`console.log(a) //H`
-
+```
 支持AMD加载
 ```
 require('firstAlphabet')
