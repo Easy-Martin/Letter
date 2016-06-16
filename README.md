@@ -2,7 +2,7 @@
 获取中文的拼音或者英文首字母
 
 ### 示例
-引入 firstAlphabet.js
+引入 firstLetter.js
 ```
 var a = firstLetter('黄') 
 console.log(a) //H
