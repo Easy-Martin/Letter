@@ -4,8 +4,8 @@
 ### 示例
 引入 firstAlphabet.js
 ```
-var a = firstAlphabet('黄') 
-console.log(a) //H
+var a = firstAlphabet('北京') 
+console.log(a) //BJ
 
 ```
 支持AMD加载
