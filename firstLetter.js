@@ -6,10 +6,10 @@
 		if(typeof str !== 'string'){
 			throw new Error("param is a String");
 		}
-		var arrResult = checkChinese(str);
-		return arrResult.toUpperCase();
+		var EnResult = ChReSaveEn(str);
+		return EnResult.toUpperCase();
 	};
-	var checkChinese = function (ch){
+	var ChReSaveEn = function (ch){
 		var pyStr = '';
 		for(var i = 0;i < ch.length;i++){
 			var uni = ch.charCodeAt(i);
@@ -18,6 +18,7 @@
 			}
 			pyStr += (chineseFirstPY.charAt(uni-19968));
 		}
+		
 		return pyStr;
 	};
 	if (typeof define === "function" && define.amd) {
