@@ -1,17 +1,19 @@
-# firstLetter
-获取中文的拼音或者英文首字母
+# Letter
+获取中文的拼音对应的英文字母
 
 ### 示例
-引入 firstLetter.js
+引入 Letter.js
 ```
 
-var a = firstAlphabet('北京') 
+var a = Letter('北京') 
 console.log(a) //BJ
 
 
 ```
-支持AMD加载
-```
-require('firstLetter')
 
 ```
+require('Letter')
+
+```
+
+ 
