@@ -6,12 +6,11 @@
 ```
 
 var a = Letter('北京') 
+
 console.log(a) //BJ
 
 
 ```
-
-
 
 ```
 require('Letter')
