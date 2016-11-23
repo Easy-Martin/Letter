@@ -11,6 +11,8 @@ console.log(a) //BJ
 
 ```
 
+
+
 ```
 require('Letter')
 
